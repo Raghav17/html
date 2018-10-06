@@ -1,0 +1,606 @@
+/* ==============================================
+==================Large Display==============*/
+
+@media only screen and (min-width: 1200px) and (max-width: 1300px) {}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+	.container{
+		width: 910px;
+	}
+	/*	footer */
+	.widget_social > a {
+		margin-right: 15px;
+	}
+	.address_content a h4 {
+		font-size: 13px;
+	}
+	.widget_social > a i {
+		font-size: 20px;
+	}
+	/*	footer */
+	
+	/*	blog */
+	.tags_post > a {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	.instagram_post a {
+		height: 80px;
+		width: 80px;
+	}
+	.instagram-middle img {
+		width: 100%;
+	}
+	.recent_post ul li .recent_post_image {
+		width: 80px;
+		height: 80px;
+	}
+	.recent_post_image > img {
+		width: 100%;
+	}
+	.recnet_post_content {
+		padding-top: 0;
+		vertical-align: middle;
+		width: 69%;
+	}
+	.blog_image_container > img {
+		width: 100%;
+	}
+	/*	blog */
+	
+	/* single blog */
+	.single_blog_page_image > img {
+		width: 100%;
+	}
+	/* single blog */
+	
+	/* partner blog */
+	.single_partner_auto {
+		width: 25%;
+	}
+	/* partner blog */
+	
+	/*	faq page*/
+	.faq .panel-group {
+		padding: 0px;
+  	}
+	/*	faq page*/
+	
+	/*	schedule page*/
+	.speaker_time {
+		padding-left: 40px;
+	}
+	.speaker_desig {
+		padding-right: 35px;
+	}
+	.speaker_bio {
+		margin-right: 0px;
+	}
+	.tab-pane > li {
+		border-top: 1px solid #ff831e;
+		padding: 0px 0 40px 0px;
+	}
+	/*	schedule page*/	
+}
+
+/* ==============================================
+==================Medium Display==============*/
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.container {
+        width: 728px;
+    }
+	/* header */
+	.header_logo > a img {
+		width: 100%;
+	}
+	.mainmenu li {
+		margin: 0 14px;
+	}
+	/* header */
+	/* footer */
+	.widget {
+		min-height: 265px;
+	}
+	/* footer */
+	/* contact */
+	.map_hoverable_content_inner > ul {
+		width: 100%;
+	}
+	/* contact */
+
+	/* blog */
+	.blog_image_container > img {
+		width: 100%;
+	}
+	.instagram_post a {
+		margin-bottom: 4px;
+		margin-right: 0;
+	}
+	.recent_post ul li .recent_post_image {
+		width: 80px;
+		height: 80px;
+	}
+	.recent_post_image > img {
+		width: 100%;
+	}
+	.recnet_post_content {
+		padding-top: 0;
+		vertical-align: middle;
+	}
+	.tags_post {
+		padding-bottom: 0;
+	}
+	/* blog */
+	/* single blog */
+	.single_blog_page_image > img {
+		width: 100%;
+	}
+	/* single blog */
+	
+	/* about page */
+	#count_down_start ul li{
+		padding-right: 100px;
+	}
+	#count_down_start {
+		text-align: center;
+	}
+	.history_img2 {
+		display: none;
+	}
+	.companny_history img {
+		top: 50%;
+		transform: translateY(-50%);
+		width: 90%;
+	}
+	.signle_team_member_container {
+		margin-top: 80px;
+	}
+	.partners_area::after {
+		display: none;
+	}
+	.single_partner_auto {
+		width: auto;
+	}
+	.section_title > p {
+		margin:0px;
+	}
+	/*
+	.signle_team_member_container {
+		margin-bottom: 80px;
+	}
+	.partners_area::after {
+		display: none;
+	}
+	.partners_area .section_title {
+		text-align: center;
+	}
+	.signle_team_member_container {
+		margin: 0px 30px 80px;
+	}
+	*/
+	/* about page */
+	
+	/*	pricing page */
+	.single_price {
+		margin-bottom: 30px;
+	}
+	/*	pricing page */
+	
+	/*	partner page */
+	.single_partner_auto {
+		width: auto;
+	}
+	/*	partner page */
+	
+	/*	speaker page */
+	.speaker .signle_team_member_container {
+		margin-bottom: 0;
+	}
+	.section_padding {
+		padding-bottom: 0;
+	}
+	.single_team_member_content {
+		vertical-align: middle;
+	}
+	.single_team_member_image {
+		vertical-align: middle;
+	}
+	/*	speaker page */
+	
+	/*	schedule page */
+	.tab-pane li ul li:last-child {
+		width: calc(100% - 214px);
+	}
+	.tab-pane li ul li {
+		width: 30%;
+	}
+	.speaker_img > img {
+		width: 100%;
+	}
+	.speaker_bio {
+		margin-right: 0px;
+	}
+	.speaker_time {
+		padding-left: 22px;
+	}
+	.speaker_desig {
+		padding-right: 15px;
+	}
+	/*	schedule page */
+	
+	/*	home page */
+	.tab-pane li ul li:last-child {
+		width: calc(100% - 345px);
+	}
+	.tab-pane li ul li {
+		width: 24%;
+	}
+	.tab-pane > li {
+		padding: 40px 0 40px 0px;
+	}
+	.speaker_bio > a {
+		font-size: 17px;
+	}
+	.panel-title > p {
+		line-height: 20px;
+		padding-top: 6px;
+	}
+	.panel a.collapsed .panel-title p {
+		line-height: 20px;
+	}
+	/*	home page */
+	
+}
+
+/* ==============================================
+==================Tab Screen==============*/
+@media only screen and (max-width: 767px) {
+	.container {
+        width: 300px;
+    }
+	/* Header area */
+	nav.mainmenu{
+		display: none !important;
+	}
+	.mean-container .mean-nav {
+		background: #242424 none repeat scroll 0 0;
+		margin-top: 65px;
+	}
+	.mean-container .mean-bar {
+		background: transparent none repeat scroll 0 0;
+		margin-top: 25px;
+	}
+	.mean-container .mean-nav > ul > li > a {
+		line-height: 56px;
+		padding: 0;
+	}
+	.mean-container .mean-nav ul li a.mean-expand {
+		line-height: 32px;
+	}
+	.brand_logo {
+		padding: 0px 0 0;
+	}
+	/* End Header area */
+	
+	/* error page */
+	.breadcrumb_table {
+		height: auto;
+		padding-top: 50px;
+	}
+	.error_content h5 {
+		font-size: 17px;
+		margin-bottom: 30px;
+	}
+	.error_content h1 {
+		font-size: 126px;
+		line-height: 126px;
+	}
+	.error_content p a {
+		font-size: 18px;
+	}
+	.error_content > p {
+		font-size: 18px;
+	}
+	/* error page */
+	/* footer */
+	.widget {
+		margin-bottom: 50px;
+	}
+	.widget_title {
+		margin-bottom: 28px;
+	}
+	.widget.widget_newsletter {
+		margin-bottom: 0px;
+	}
+	.footer_bottom_area p span {
+		display: none;
+	}
+	.footer_bottom_area p {
+		font-size: 12px;
+	}
+	/* footer */
+	
+	/* contact page */
+	.map_hoverable_content_inner ul li {
+		display: block;
+		width: 100%;
+	}
+	.map_hoverable_content {
+		position: static;
+	}
+	.map_hoverable_content_inner > ul {
+		width: auto;
+	}
+	/* contact page */
+	
+	/*	faq page */
+	.faq .panel-group {
+		padding: 0px;
+	}
+	/*	faq page */
+	/*	blog page */
+	.single_blog_content_container article {
+		display: block;
+	}
+	.blog_image_container {
+		width: 100%;
+	}
+	.blog_content_container {
+		width: 100%;
+		margin-left: 0px;
+	}
+	article:nth-child(2n) .blog_content_container {
+		left: 0;
+	}
+	article:nth-child(2n) .blog_image_container {
+		left: 0;
+	}
+	.blog_image_container > img {
+		width: 100%;
+	}
+	.recent_post ul li .recent_post_image {
+		height: 80px;
+		width: 80px;
+	}
+	.recent_post_image > img {
+		width: 100%;
+	}
+	.recnet_post_content {
+		padding-left: 0;
+		padding-top: 0;
+		vertical-align:middle;
+		width: 67%;
+	}
+	.instagram-middle img {
+		width: 100%;
+	}
+	.instagram_post a {
+		height: 80px;
+		width: 80px;
+	}
+	.tags_post > a {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.blog_image_container {
+		margin-bottom: 30px;
+	}
+	.tags_post {
+		padding-bottom: 0px;
+	}
+	/*	blog page */
+	
+	/* single blog page */
+	.single_blog_page_image > img {
+		width: 100%;
+	}
+	.single_blog_use_content {
+		display: block;
+		width: 100%;
+	}
+	/* single blog page */
+	
+	/* about page */
+	.panel-title {
+		font-size: 13px;
+	}
+	.panel-title a {
+		line-height: 18px;
+	}
+	#count_down_start ul{
+		padding: 0px 15px;
+	}
+	#count_down_start ul li{
+		font-size: 16px;
+		display: inline-block;
+		padding-right: 20px;
+	}
+	#count_down_start ul li:after{
+		right: 0;
+	}
+	#count_down_start ul li:last-child:after{
+		content: "";
+	}
+	#count_down_start ul li:last-child{
+		padding-right: 0px;
+	}
+	#count_down_start ul li span{
+		font-size: 16px;
+	}
+	.section_title h2 {
+		font-size: 20px;
+	}
+	.section_title h2 img {
+		vertical-align: bottom;
+	}
+	.signle_team_member_container {
+		margin-bottom: 80px;
+	}
+	.partners_area::after {
+		display: none;
+	}
+	.section_title > p {
+		width: auto;
+	}
+	.companny_history img {
+		left: 0;
+		position: static;
+		margin-bottom: 50px;
+	}
+	.history_img2 {
+		width: 100%;
+	}
+	.history_img1 {
+		width: 100%;
+	}
+	.team_member_area {
+		padding: 100px 0 50px;
+	}
+	.panel-title > p {
+		line-height: 21px;
+		padding-top: 5px;
+	}
+	.panel a.collapsed .panel-title p {
+		line-height: 20px;
+	}
+	/* about page */
+	
+	/* Pricing page */
+	.single_price {
+		margin-bottom: 30px;
+	}
+	.pricing_area {
+		padding: 80px 0 50px;
+	}
+	.single_price {
+		padding: 0px 50px;
+	}
+	/* Pricing page */
+	
+	/* Partner page */
+	.single_partner {
+		display: inline-block;
+	}
+	.single_partner_auto {
+		width: 100%;
+	}
+	/* Partner page */
+	
+	/* FAQ page */
+	.panel-title > p {
+	  line-height: 21px;
+	}
+	/* FAQ page */
+	
+	/* Speaker page */
+	.single_team_member_image > img {
+		width: 100%;
+	}
+	.single_team_member_content {
+		display: block;
+		width: 100%;
+		padding-left: 0px;
+		margin-top: 30px;
+	}
+	/* Speaker page */
+	
+	/* Schedule page */
+	.tab-pane li ul li:last-child {
+		width: 100%;
+	}
+	.speaker_img {
+		margin-right: 0px;
+	}
+	.speaker_img > img {
+		width: 100%;
+	}
+	.tab-pane > li {
+		border-top: 1px solid #ff831e;
+		padding: 0;
+	}
+	.speaker_time {
+		border-left: none;
+		padding-left: 0px;
+	}
+	.speaker_desig {
+		margin-bottom: 30px;
+		margin-top: 30px;
+	}
+	.schedule .tab-pane > li {
+		margin-bottom: 50px;
+	}
+	.tabmenu li {
+		margin-bottom: 20px;
+		display: block;
+	}
+	.schedule-date > a {
+		display: block;
+	}
+	/* Schedule page */
+	
+	/* home page */
+	.single_price {
+		padding: 0;
+	}
+	.single_overview_slider {
+		margin-top: 50px;
+	}
+	.home .tab-pane > li {
+		padding: 20px 0px;
+	}
+	.home .tab-pane li ul li {
+		padding: 20px 0px 0px;
+	}
+	/* home page */
+	
+	
+	
+}
+
+/* ==============================================
+=============Medium Mobile Screen==============*/
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	.container {
+        width: 450px;
+    }
+	/* footer */
+	.widget {
+		padding: 0px 70px;
+	}
+	/* footer */
+	/* about page */
+	.panel-title a {
+		line-height: 30px;
+	}
+	#count_down_start {
+		text-align: center;
+	}
+	.signle_team_member_container {
+		margin-left: 50px;
+		margin-right: 50px;
+	}
+	.single_partner {
+		margin-right: 0;
+	}
+	/* about page */
+	
+	/* home page */
+	.panel-title > p {
+		line-height: 43px;
+	}
+	.panel a.collapsed .panel-title p {
+		line-height: 43px;
+	}
+	.single_price {
+		padding: 0 50px;
+	}
+	/* home page */
+	
+	
+}
+/* ==============================================
+============Small Mobile Display==============*/
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+	.container {
+        width: 300px;
+    }
+}
